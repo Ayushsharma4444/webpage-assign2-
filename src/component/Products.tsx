@@ -1,7 +1,6 @@
 import {GiSchoolBag} from 'react-icons/gi';
 import {SlHandbag} from 'react-icons/sl';
 import {GiDuffelBag} from 'react-icons/gi'
-import {BsBagFill} from 'react-icons/Bs';
 import {GiHandBag} from 'react-icons/gi';
 import {GiShoulderBag} from 'react-icons/gi';
 import {BiShoppingBag} from 'react-icons/bi';
@@ -18,25 +17,25 @@ export const Products = () => {
             <li><SlHandbag color='white'/></li>
             <span>Vanity Pouch</span>
         </div>
-        <div className='item'>
-            <li><BsBagFill color='white'/></li>
-            <span>Vanity Pouch</span>
-        </div>
+        {/* <div className='item'> */}
+            {/* <li><BsBagFill color='white'/></li> */}
+            {/* <span>Vanity Pouch</span> */}
+        {/* </div> */}
         <div className='item'>
             <li><GiDuffelBag color='white'/></li>
-            <span>Vanity Pouch</span>
+            <span>Tote Bags</span>
         </div>
         <div className='item'>
             <li><GiHandBag color='white'/></li>
-            <span>Hand Bag</span>
+            <span>Messenger Bags</span>
         </div>
         <div className='item'>
         <li><GiShoulderBag color='white'/></li>
-            <span>Slings Bag</span>
+            <span>Slings Bags</span>
         </div>
         <div className='item'>
         <li><BiShoppingBag color='white'/></li>
-            <span>Slings Bag</span>
+            <span>Hand Bags</span>
         </div>
         
     </div>
