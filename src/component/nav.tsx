@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsSearch} from 'react-icons/Bs';
+import {BsSearch} from 'react-icons/bs';
 import {AiOutlineUser} from 'react-icons/ai';
 import {BiBookmark} from 'react-icons/bi';
 import {BiShoppingBag} from 'react-icons/bi';
